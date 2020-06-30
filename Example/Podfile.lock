@@ -1,0 +1,27 @@
+PODS:
+  - Categorys (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - Categorys (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  Categorys:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Categorys: 7e85733da14f0adc11bb90e3d948ab8cd58f6fe2
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 8789d653e20d7922b74f77be2094ca97bf605d70
+
+COCOAPODS: 1.9.3
